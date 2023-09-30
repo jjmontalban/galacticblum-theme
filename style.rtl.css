@@ -1,0 +1,4 @@
+.widget_archive ul li a,
+.widget_categories ul li a  {
+	float:right;
+}
