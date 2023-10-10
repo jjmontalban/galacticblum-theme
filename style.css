@@ -46,6 +46,8 @@ Text Domain:        galacticblum
  * 		16.1. Buttons
  * 17. Widgets
  *      17.1 Categories
+ * 18. 404
+ *      
  */
 /**
  * Foundation for Sites by ZURB
@@ -3520,6 +3522,8 @@ body.page .featured-image {
 
 body.page .featured-image img {
 	width:100vw;
+	max-height: 20vw;
+    object-fit: cover;
 }
 
 /* -- 13.2. Content */
@@ -4405,4 +4409,10 @@ body.single-equipo .featured-image img {
 	width: 100%;
 	display: inline-block;
 	text-align: center;
+}
+
+body.error404 {
+    background: url('https://images.unsplash.com/photo-1510133768164-a8f7e4d4e3dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80') no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
 }
