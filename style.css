@@ -4372,6 +4372,13 @@ body.single-equipo .featured-image img {
 	padding: 1rem;
 	border-radius: 25px;
 }
+.widget_categories ul {
+	text-align: left;
+
+}
+.widget_categories ul li {
+	border-bottom: solid 1.5px #000f98;
+}
 
 .widget_archive {
 	border: 2px solid #000f98;
@@ -4384,7 +4391,9 @@ body.single-equipo .featured-image img {
 	padding: 1rem;
 	border-radius: 25px;
 }
-
+.widget_recent_entries ul li {
+	border-bottom: solid 1.5px #000f98;
+}
 
 .wp-block-buttons .wp-block-button{
 	width: 100%;
@@ -4394,4 +4403,6 @@ body.single-equipo .featured-image img {
 	border-radius: 25px;
 	background-color: #000f98;
 	width: 100%;
+	display: inline-block;
+	text-align: center;
 }
